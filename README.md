@@ -1,4 +1,4 @@
-# My_cpp_programs
+# My C++ programs
 <div>
 <p> I have been learning C++ programming for quite a long time</p>
 </div>
