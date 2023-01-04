@@ -3,19 +3,23 @@
 using namespace std;
 int main()
 {
-    int num1 {10};
-    int num2 {3};
-    double average {0.0};
-    average = num1/num2;
-    //Tye conversion (Double is converted to integer)
-    cout<<"Average  : "<<average<<endl;
+    bool result {false};
 
-    //Explicit conversion of Int to double
-    average = static_cast<double>(num1)/num2;
-   
-    cout<<"Average  : "<<average<<endl;
+    cout<<result<<endl;
 
+    cout<<std::boolalpha;
+    cout<<result<<endl;
+    cout<<std::noboolalpha;
+
+    result = (100 == 100);
+
+    cout<<result<<endl;
+    cout<<(100 == 50+50)<<endl;
+
+    cout<<std::boolalpha;
+    cout<<(100 == 98)<<endl;
+    cout<<std::noboolalpha;
+    
     return 0;
-
 
 }
